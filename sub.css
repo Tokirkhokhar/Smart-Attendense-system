@@ -1,0 +1,45 @@
+.container {
+    margin-top: 28px;
+    margin-left: 228px;
+    width: 510px;
+    background-color: rgb(250, 250, 250);
+    height: 523px;
+    border-radius: 20px;
+}
+
+.box {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.dom {
+    display: inline-flex;
+}
+
+img {
+    margin-top: 30px;
+    margin-left: 30px;
+    position: relative;
+    height: 125px;
+    width: 125px;
+}
+
+.container .info p {
+    font-family: 'Raleway';
+    padding: 10px;
+    font-size: 20px;
+    border-bottom: 1px solid black;
+}
+
+.tab #field {
+    font-family: 'Raleway';
+    font-size: 20px;
+    padding: 30px;
+    padding-right: 5px;
+    color: rgb(102, 102, 102);
+}
+
+.tab #value {
+    font-family: 'Roboto';
+    font-size: 20px;
+}
